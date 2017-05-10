@@ -1,5 +1,5 @@
 {
-  "name": "activity-cli",
+  "name": "input-activity-cli",
   "version": "0.0.1",
   "description": "activity builder CLI.",
   "main": "./bin/activity.js",
