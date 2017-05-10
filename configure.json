@@ -1,8 +1,8 @@
 {
   "templates": {
     "vue": {
-      "branch": "",
-      "git": ""
+      "branch": "master",
+      "git": "ssh://chenjiufu@icode.baidu.com:8235/baidu/inputmethod/activitycli"
     }
   }
 }

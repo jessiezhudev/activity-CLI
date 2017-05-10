@@ -14,7 +14,7 @@
     "activity": "./bin/activity.js"
   },
   "repository": {
-    "url": "",
+    "url": "git@github.com:Chenjiufu/activity-CLI.git",
     "type": "git"
   },
   "keywords": [
@@ -27,7 +27,7 @@
     "url": ""
   },
   "homepage": "",
-  "author": "",
+  "author": "chenjiufu",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
