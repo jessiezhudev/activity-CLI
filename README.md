@@ -1,6 +1,6 @@
 # activity-cli (WIP)
 
-A activity builder CLI.
+An activity builder CLI.
 
 ### Installation
 
