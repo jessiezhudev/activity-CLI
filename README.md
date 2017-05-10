@@ -5,7 +5,7 @@ A activity builder CLI.
 ### Installation
 
 ```sh
-$ npm install -g activity-cli
+$ npm install -g input-activity-cli
 ```
 
 ### Get Started
