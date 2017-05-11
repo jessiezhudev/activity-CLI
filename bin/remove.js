@@ -7,11 +7,15 @@ const chalk = require('chalk');
 const configure = require('../configure');
 const params = process.argv.slice(2);
 
-module.exports = () => {
-    return async function () {
+module.exports = async() => {
         let templateName = params[1],
-            confirm = await prompt(chalk.red(`\n remove template ${templateName}?[y/n]: `));
-
+         { confirm } = await prompt([
+             {
+                 type: 'input',
+                 message: chalk.red(`\n remove template ${templateName}?[y/n]: `),
+                 name: 'confirm'
+             }
+        ]);
         if (!(confirm == 'y' || confirm == 'yes')) {
             console.log(chalk.green('\n × Cancelled.\n'));
             process.exit();
@@ -42,4 +46,3 @@ module.exports = () => {
             process.exit();
         }
     }
-};

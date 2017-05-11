@@ -1,6 +1,6 @@
 {
   "name": "input-activity-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "activity builder CLI.",
   "main": "./bin/activity.js",
   "engines": {
