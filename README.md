@@ -17,7 +17,7 @@ $ activity init <template-name> <resume-name>
 Example:
 
 ```sh
-$ activity init vue 170601_childrensday
+$ activity init vue2 170601_childrensday
 ```
 
 
