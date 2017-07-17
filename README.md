@@ -38,4 +38,6 @@ Usage: activity <command>
 
     -h, --help     output usage information
     -V, --version  output the version number
+
 ```
+jessie &joe
